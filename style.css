@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color:black;
+
+}
+a{
+    text-decoration: none;
+}
+.content{
+    height:12rem;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-bottom: 1px rgb(162, 157, 157) solid;
+    
+}
+.logo{
+    height:9rem;
+    width:15%;
+    position: absolute;
+    top:2rem;
+    left:5rem;
+    border-radius: 5%;
+}
+.logo_img{
+    height:8rem;
+    width:100%;
+}
+.menu{
+    height:9rem;
+    width:55%;
+    float:right;
+    border-left: 1px solid gray;
+}
+ul li{
+    list-style-type: none;
+    font-size: 25px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 9rem;
+}
+.menu ul li:hover{
+    border-bottom: 5px solid gray;
+    border-radius:5%;
+}
+.precontent{
+    height:15rem;
+    background-color: #EEEEEE;
+    
+
+}
+.p_content{
+    margin: 2% 5% 0% 0%;
+    background-color: white;
+    height:10rem;
+    width: 45%;
+    float:right;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    font-size: x-large;
+}
+.Content_image{
+    margin: 2% 0% 0% 5%;
+    height: 10rem;
+    width:40%;
+    float: left;
+    background-image: url("https://imgs.search.brave.com/B3T9vkGdm0ogGOHRSqtju728kIMWTrBOvWmCvagVXTc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzk2LzAxLzE2/LzM2MF9GXzE5NjAx/MTYzMl9aNlR4cXJV/UUlkTGpuSTJ6T09p/UGxoQTNoemJpR1Ns/Zy5qcGc");
+    background-size: cover;
+}
+.contact{
+    background-color: #EEEEEE;
+    height:15rem;
+}
+.text{
+    margin-left:3% ;
+    height: 13rem;
+    font-size: 15px;
+    width: 40%;
+    border:1px gray solid;
+}
+
+.form{
+    position: absolute;
+    top:27rem;
+    right:1px;
+    height:10rem;
+    width:50%;
+    margin-right:5%;
+    border: gray solid 1px ;
+}
+.form input,button{
+    margin:2%;
+}
+.footer{
+    height:16rem;
+    background-color: #a7a1a1;
+    padding: 3%;
+}
+.icon{
+    height: 9rem;
+    width: 10rem;
+    background-image: url("https://imgs.search.brave.com/1q1cyisH-nWrlLhTSX9X9crSn0IKS1EuVN-7Fz2oxJ0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA0LzcwLzY0/LzM2MF9GXzgwNDcw/NjQzNV9YN3k5MW1B/N2JqUXhlZXZlTmo4/QlM3TlkyOWlyRU02/SC5qcGc");
+    background-size:contain;
+}
+.nav{
+    position: absolute;
+    top:44rem;
+    left: 24rem;
+    border-left: 1px solid gray;
+}
+.nav li{
+    padding:1px;
+    margin-top: 15%;
+}
+.cont{
+    position: absolute;
+    top: 44rem;
+    left:30rem;
+    font-size: 20px;
+}
