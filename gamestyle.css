@@ -46,64 +46,78 @@ ul li{
     border-bottom: 5px solid gray;
     border-radius:5%;
 }
-.precontent{
-    height:15rem;
-    background-color: #EEEEEE;
-    
-
-}
-.p_content{
-    margin: 2% 5% 0% 0%;
-    background-color: white;
-    height:10rem;
-    width: 45%;
-    float:right;
+.mode{
+    height: 6rem; 
     display: flex;
-    justify-content: center;
-    border: 1px solid gray;
-    font-size: x-large;
+    justify-content: space-evenly;
+    padding: 1rem;
 }
-.Content_image{
-    margin: 2% 0% 0% 5%;
+.mode button{
+    height:4rem;
+    width:10rem;
+
+}
+.scorecard{
+    height:16rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Total_win,.Total_loss{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    text-wrap:wrap;
+    
+}
+.Total_rounds{
+    font-size: 44px;
+    text-wrap:wrap;
+    
+}
+.playarea{
+    height:16rem;
+}
+.selection{
     height: 10rem;
-    width:40%;
-    float: left;
-    background-image: url("https://imgs.search.brave.com/B3T9vkGdm0ogGOHRSqtju728kIMWTrBOvWmCvagVXTc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzk2LzAxLzE2/LzM2MF9GXzE5NjAx/MTYzMl9aNlR4cXJV/UUlkTGpuSTJ6T09p/UGxoQTNoemJpR1Ns/Zy5qcGc");
-    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    padding:1rem;
 }
-.contact{
-    background-color: #EEEEEE;
-    height:17rem;
+.rock{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+    background-color: rgba(225, 140, 140, 0.888);
+    cursor:pointer;
 }
-.text{
-    margin-left:3% ;
-    height: 13rem;
-    font-size: 15px;
-    width: 40%;
+.rock_img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+.paper{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+    background-color: rgba(134, 241, 241, 0.957);
+    cursor:pointer;
+}
+.paper_img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
 }
 
-.form{
-    position: absolute;
-    top:27rem;
-    right:1px;
+.scissor{
     height:10rem;
-    width:50%;
-    margin-right:5%;
+    width:10rem;
+    border-radius: 50%;
+    background-color: rgba(202, 242, 142, 0.943);
+    cursor:pointer;
 }
-.box{
-    height:2rem;
-    width:14rem;
-    border-radius: 2%;
-    background-color: white;
-    color:gray;
-}
-.form button{
-    background-color: gray;
-    height:2rem;
+.scissor_img{
+    height: 7rem;
     width: 7rem;
-}
-.form input,button{
-    margin:2%;
+    border-radius: 50%;
 }
 .footer{
     height:16rem;

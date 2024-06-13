@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/ROCK_PAPER_SCISSOR/style.css">
+    <link rel="stylesheet" href="/ROCK_PAPER_SCISSOR/gamestyle.css">
     <link rel="short icon" type="x-icon" href="https://imgs.search.brave.com/1q1cyisH-nWrlLhTSX9X9crSn0IKS1EuVN-7Fz2oxJ0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA0LzcwLzY0/LzM2MF9GXzgwNDcw/NjQzNV9YN3k5MW1B/N2JqUXhlZXZlTmo4/QlM3TlkyOWlyRU02/SC5qcGc">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissor </title>
+    <title>Rock paper Scissor</title>
 </head>
 <body>
     <header>
@@ -21,36 +21,28 @@
             </div>
         </div>
     </header>
-    <div class="precontent">
-        <div class="p_content">
-            <pre>
-            <h1><strong>Welcome!</strong></h1>
-            To the Exclusive game Showdown Of
-                  ROCK Paper Scissor.
-            </pre> 
-        </div>
-        <div class="Content_image">
+    <div class="mode">
+        <button class="multi">Multiplayer </button>
+        <button class="single">Single player</button>
+    </div>
+    <div class="scorecard">
+        <div class="Total_win">Total Wins <div class="inner_win"> 0</div> </div>
+        <div class="Total_rounds">Total Rounds<div class="inner_round">0</div></div>
+        <div class="Total_loss">Total Loss <div class="inner_loss">0</div> </div>
+    </div>
+    <div class="playarea">
+        <div class="selection">
+            <button class="rock">
+                <img src="https://imgs.search.brave.com/fNFU5Atfw6er9BVius_uPjWoob5UYQ9U22Tdq0aD_0A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cm9jay1wYXBlci1z/Y2lzc29ycy1nYW1l/LmNvbS9pL3JvY2su/cG5n" class="rock_img">
+            </button>
+            <button class="paper">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVG7S1z9x5ImHHR9U7ej0xm_KxYHqtCD7Big&s" class="paper_img">
+            </button>
+            <button class="scissor">
+                <img src="https://imgs.search.brave.com/xjEHgjQpkWc1ChBdEU4s12lNJvu4JcjL3RSYUn0vCP8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS8x/MjgvNDg5Mi80ODky/MzM3LnBuZw" class="scissor_img">
+            </button>
         </div>
     </div>
-    <div class="contact">
-        <div class="text">
-            <pre>
-                 <h1>    Interested?</h1>
-                Let's know a bit more about you.
-            </pre>
-        </div>
-        <div class="form">
-            <pre>
-                <!-- Enter your Name. -->
-                <input class="box" type="text" placeholder="xyz">
-                <!-- Enter your Email address  -->
-                <input class="box" type="text" name="email" value="" placeholder="xyz@gamil.com">
-                <input class="box" type="text" placeholder="where did you hear about us?">
-                <button>Enter</button>
-            </pre>
-        </div>
-    </div>
-    <footer>
     <div class="footer">
         <div class="icon"><label><a href="/ROCK_PAPER_SCISSOR/index.html" target="_blank" rel="no-referer noopener"><img class="logo_img" src="https://imgs.search.brave.com/1q1cyisH-nWrlLhTSX9X9crSn0IKS1EuVN-7Fz2oxJ0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA0LzcwLzY0/LzM2MF9GXzgwNDcw/NjQzNV9YN3k5MW1B/N2JqUXhlZXZlTmo4/QlM3TlkyOWlyRU02/SC5qcGc"></a></label>
         </div>
@@ -75,5 +67,5 @@
     </footer>
     
 </body>
-<style href="/ROCK_PAPER_SCISSOR/first.js"></style>
+<script href="/ROCK_PAPER_SCISSOR/gamelogic.js"></script>
 </html>
