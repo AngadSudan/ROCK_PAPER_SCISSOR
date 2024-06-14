@@ -58,7 +58,7 @@ ul li{
 
 }
 .scorecard{
-    height:16rem;
+    height:10rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -76,8 +76,14 @@ ul li{
 .playarea{
     height:16rem;
 }
+.computer{
+    height:4rem;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
 .selection{
-    height: 10rem;
+    height: 16rem;
     display: flex;
     justify-content: space-evenly;
     padding:1rem;
